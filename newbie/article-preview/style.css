@@ -1,0 +1,136 @@
+:root {
+  --blue-one: hsl(217, 19%, 35%);
+  --blue-two: hsl(214, 17%, 51%);
+  --blue-three: hsl(212, 23%, 69%);
+  --blue-four: hsl(210, 46%, 95%);
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1920px;
+  font-family: "Manrope";
+  background-color: var(--blue-four);
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+img.drawers {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+section {
+  background-color: var(--white);
+  width: 400px;
+  height: 400px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  color: var(--blue-one);
+  margin: 40px 20px 0px 20px;
+  padding-left: 10px;
+  line-height: 1.6;
+}
+
+p.intro {
+  font-size: 15px;
+  padding: 0px 60px 0px 30px;
+  line-height: 1.7;
+  color: var(--blue-two);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+img.avatar {
+  width: 100%;
+  max-width: 50px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+div.icon {
+  width: 40px;
+  height: 40px;
+  background-color: var(--blue-four);
+  border-radius: 50%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+img.icon {
+  width: 20px;
+  display: block;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+p.name {
+  font-weight: 700;
+  color: var(--blue-one);
+}
+
+span {
+  display: block;
+  color: var(--blue-two);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 15px;
+  color: var(--blue-one);
+  margin-top: 40px;
+}
+
+a {
+  color: var(--blue-three);
+  text-decoration: none;
+}
+
+/** Media Queries **/
+
+@media only screen and (min-width: 1200px) {
+  main {
+    flex-direction: row;
+    margin-top: 250px;
+  }
+  section {
+    width: 490px;
+    height: 320px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+  }
+  img.drawers {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
+  .container {
+    position: relative;
+    top: -30px;
+  }
+  p.name {
+    position: relative;
+    right: 70px;
+  }
+}
