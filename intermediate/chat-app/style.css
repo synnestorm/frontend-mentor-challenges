@@ -1,0 +1,376 @@
+:root {
+  --violet-one: hsl(276, 100%, 81%);
+  --violet-two: hsl(276, 55%, 52%);
+  --violet-three: hsl(271, 15%, 43%);
+  --violet-four: hsl(271, 36%, 24%);
+  --violet-five: hsl(270, 7%, 64%);
+  --violet-six: hsl(270, 20%, 96%);
+  --violet-seven: hsl(271, 36%, 24%);
+  --gray-blue: hsl(206, 6%, 79%);
+  --white: hsl(0, 0%, 100%);
+  --magenta: hsl(289, 100%, 72%);
+}
+
+/** Body and Background **/
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  max-width: 1920px;
+  font-family: "Rubik";
+  background-color: var(--violet-six);
+}
+
+.bg-image-left {
+  width: 600px;
+  height: 800px;
+  background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  border-bottom-right-radius: 47%;
+  border-bottom-left-radius: 47%;
+  position: relative;
+  top: -50px;
+  right: 100px;
+}
+
+.bg-image-right {
+  width: 600px;
+  height: 800px;
+  background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  border-top-right-radius: 47%;
+  border-top-left-radius: 47%;
+  opacity: 0.1;
+  position: relative;
+  top: -650px;
+  left: 1200px;
+}
+
+/** Images **/
+
+img.avatar {
+  width: 100%;
+  max-width: 30px;
+  border-radius: 50%;
+  border: 2px solid var(--white);
+  position: relative;
+  top: -50px;
+  left: 35px;
+}
+
+img.dog {
+  width: 100%;
+  max-width: 60px;
+  border-radius: 20px;
+  position: relative;
+  top: 55px;
+  left: 105px;
+}
+
+.dog-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+/** Phone **/
+
+.phone {
+  width: 350px;
+  height: 700px;
+  background-color: var(--white);
+  position: relative;
+  top: -1550px;
+  left: 400px;
+  border-radius: 40px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.phone-top-white {
+  width: 210px;
+  height: 40px;
+  background-color: var(--white);
+  border-radius: 30px;
+  position: relative;
+  top: -1505px;
+  left: 470px;
+  z-index: 99;
+}
+
+.phone-top {
+  width: 320px;
+  height: 100px;
+  background-image: linear-gradient(
+    to right,
+    hsl(264, 100%, 61%),
+    hsl(293, 100%, 63%)
+  );
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: relative;
+  top: 15px;
+  left: 15px;
+  z-index: 1;
+}
+
+i.material-icons {
+  color: var(--white);
+  font-size: 35px;
+}
+
+i.i-left {
+  position: relative;
+  top: 47px;
+}
+
+i.dots {
+  position: relative;
+  top: -125px;
+  left: 280px;
+}
+
+p.name-heading {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 18px;
+  position: relative;
+  top: -10px;
+  left: 75px;
+}
+
+p.available {
+  color: var(--violet-one);
+  font-size: 12px;
+  position: relative;
+  top: -80px;
+  left: 75px;
+}
+
+.phone-main-bg {
+  background-color: var(--violet-six);
+  width: 320px;
+  height: 580px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  position: relative;
+  top: -10px;
+  left: 15px;
+}
+
+.bubble-one,
+.bubble-two,
+.bubble-five {
+  background-color: #ede5f4;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 5px;
+}
+
+.bubble-three,
+.bubble-four {
+  background-color: var(--white);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 20px;
+}
+
+.bubble-one,
+.bubble-two {
+  width: 190px;
+  height: 50px;
+  position: relative;
+  top: 30px;
+  left: 15px;
+}
+
+.bubble-three {
+  width: 190px;
+  height: 50px;
+  position: relative;
+  top: 55px;
+  left: 115px;
+}
+
+.bubble-four {
+  width: 120px;
+  height: 30px;
+  position: relative;
+  top: 55px;
+  left: 185px;
+}
+
+.bubble-five {
+  width: 190px;
+  height: 60px;
+  position: relative;
+  top: 55px;
+  left: 15px;
+}
+
+p.bubble-text-left {
+  font-size: 12px;
+  padding: 10px;
+  color: var(--violet-two);
+}
+
+p.bubble-text-right {
+  font-size: 12px;
+  padding: 10px;
+  color: var(--violet-three);
+}
+
+.walk-choose {
+  width: 230px;
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 5px;
+  background-image: linear-gradient(
+    to right,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  position: relative;
+  top: 65px;
+  left: 15px;
+}
+
+.walk-choose-two {
+  top: 75px;
+}
+
+.input {
+  width: 15px;
+  height: 15px;
+  border: 2px solid var(--magenta);
+  border-radius: 50%;
+  position: relative;
+  top: 12px;
+  left: 10px;
+}
+
+p.walk-text {
+  color: var(--white);
+  font-size: 11px;
+  margin-left: 50px;
+  position: relative;
+  top: -15px;
+}
+
+span.price {
+  float: right;
+  font-size: 17px;
+  font-weight: 700;
+  position: relative;
+  top: -5px;
+  right: 15px;
+}
+
+.phone-bottom {
+  width: 300px;
+  height: 50px;
+  background-color: var(--white);
+  border-radius: 40px;
+  position: relative;
+  top: 75px;
+  left: 10px;
+}
+
+p.placeholder {
+  color: var(--gray-blue);
+  font-size: 13px;
+  padding: 18px;
+  margin-left: 10px;
+}
+
+.arrow-right {
+  width: 40px;
+  height: 40px;
+  background-color: var(--violet-seven);
+  border-radius: 50%;
+  position: relative;
+  top: -59px;
+  left: 255px;
+}
+
+i.right {
+  padding-left: 3px;
+  padding-top: 1px;
+}
+
+/** Heading and Paragraph **/
+
+h1 {
+  position: relative;
+  top: -2000px;
+  left: 850px;
+  font-size: 45px;
+  font-weight: 500;
+  color: var(--violet-seven);
+}
+
+p.paragraph {
+  position: relative;
+  top: -2000px;
+  left: 850px;
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--violet-five);
+}
+
+.attribution {
+  position: relative;
+  top: -1730px;
+  text-align: center;
+}
+
+/** Media Query **/
+
+@media only screen and (max-width: 1300px) {
+  .bg-image-left {
+    right: 350px;
+  }
+  .phone {
+    left: 60px;
+  }
+
+  .phone-top-white {
+    left: 130px;
+  }
+  body {
+    overflow-y: visible;
+  }
+  h1 {
+    top: -1520px;
+    left: 70px;
+  }
+
+  p.paragraph {
+    top: -1500px;
+    left: 0px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .attribution {
+    top: -1490px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .phone {
+    left: 35px;
+  }
+  .phone-top-white {
+    left: 105px;
+  }
+  h1 {
+    left: 50px;
+  }
+}
