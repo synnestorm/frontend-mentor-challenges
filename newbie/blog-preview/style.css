@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1950px;
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree";
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+img.img-illu {
+  max-width: 100%;
+  width: 340px;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.article {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 10px 10px;
+  transition: 0.5s;
+}
+
+.article:hover {
+  box-shadow: 15px 15px;
+}
+
+p.learning {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: hsl(47, 88%, 63%);
+  padding: 10px;
+  margin: 10px 285px 10px 30px;
+  border-radius: 5px;
+}
+
+p.date {
+  font-size: 13px;
+  padding: 10px;
+  margin: 10px 0px 10px 23px;
+  position: relative;
+  top: -8px;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 10px 0px 10px 32px;
+  position: relative;
+  top: -10px;
+  color: hsl(0, 0%, 7%);
+  transition: 0.5s;
+}
+
+h1:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: default;
+}
+
+p.info {
+  font-size: 15px;
+  margin: 10px 20px 10px 30px;
+  line-height: 1.5;
+  color: hsl(0, 0%, 42%);
+  position: relative;
+  top: -10px;
+}
+
+img.pic {
+  max-width: 100%;
+  width: 40px;
+  margin-left: 25px;
+}
+
+p.user {
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+  left: 75px;
+  top: -30px;
+  color: hsl(0, 0%, 7%);
+  padding: 0;
+  margin: 0;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 100px;
+}
+
+a {
+  color: hsl(47, 88%, 63%);
+  background-color: hsl(0, 0%, 7%);
+  border-radius: 10px;
+  transition: 0.3s;
+  text-decoration: none;
+  padding: 5px;
+}
+
+a:hover {
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    margin-top: 50px;
+  }
+}
