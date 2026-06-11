@@ -17,6 +17,7 @@ body {
       transparent 35%
     ),
     var(--dark-blue-bg);
+  background-repeat: no-repeat;
   max-width: 1920px;
   font-family: var(--font-two);
   color: var(--text-color);
@@ -87,4 +88,23 @@ p {
   align-items: center;
   gap: 10px;
   margin-bottom: 0 var(--size-medium);
+}
+
+.card {
+  background-color: rgba(27, 30, 84, 0.7);
+  width: var(--size-xxlarge);
+  height: auto;
+  border-radius: 20px;
+  transition: 0.5s;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  margin: var(--size-xsmall) 0;
+}
+
+.card-info {
+  width: 100%;
+  max-width: 350px;
+  display: block;
+  margin: var(--size-xsmall);
+  padding-left: 10px;
+  line-height: 1.2;
 }
