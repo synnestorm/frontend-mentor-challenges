@@ -100,6 +100,12 @@ p {
   margin: var(--size-xsmall) 0;
 }
 
+.card:hover {
+  box-shadow:
+    0 0 0 1px rgba(142, 160, 255, 0.05),
+    0 10px 28px rgba(142, 160, 255, 0.1);
+}
+
 .card-info {
   width: 100%;
   max-width: 350px;
