@@ -1,12 +1,20 @@
-# Challenges from Front End Mentor
+# Challenges from frontendmentor
 
-I wanted to create a repo where all the challenges I did/will do with frontend mentor could be stored.
-The vision is to create a website where you can browse through all the challenges from newbie to intermediate.
+These are all my challenges from frontendmentor, made into one repository.
 
-This is also for practice with git, creating PRs (merges etc) and commits.
+### Description
 
-Important links:
+This is a web application made with the same styling as my portfolio. I wanted my solutions of challenges from frontendmentor to be easily accessible in a responsive design. Here you can view newbie, junior and intermediate challenges.
 
-Frontend mentor page:
+These challenges are my frist introduction to front end development.
 
-This is not finished!
+### Built with
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Author
+
+- Github - [@synnestorm](https://www.github.com/synnestorm)
+- Frontend Mentor - [@synnestorm](https://www.frontendmentor.io/profile/synnestorm)
