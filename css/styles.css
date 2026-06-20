@@ -128,9 +128,10 @@ p {
 }
 
 .links-container {
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
   font-size: var(--font-size-s);
+  position: relative;
+  bottom: 10px;
 }
 
 footer {
