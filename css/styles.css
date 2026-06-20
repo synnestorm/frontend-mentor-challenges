@@ -73,14 +73,34 @@ h1 {
 }
 
 h2 {
-  font-size: var(--font-size-s);
+  font-size: clamp(40px, 8vw, 50px);
+  font-family: var(--font-one);
+  transition: 0.4s;
+}
+
+h2:hover {
+  color: #ac89e7;
 }
 
 p {
   font-size: 17px;
 }
 
+/* this needs some work implementing DRY:*/
+
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 0 var(--size-medium);
+  text-align: center;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.container-challenges {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
