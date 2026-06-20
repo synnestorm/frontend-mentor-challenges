@@ -22,6 +22,7 @@ body {
   font-family: var(--font-two);
   color: var(--text-color);
   overflow-x: hidden;
+  text-align: center;
 }
 
 /* navbar */
@@ -60,7 +61,6 @@ a.links:where(:hover, :focus-visible) {
 h1 {
   color: var(--heading-color);
   font-size: clamp(60px, 8vw, 80px);
-  margin-left: var(--size-small);
   font-family: var(--font-one);
 }
 
@@ -86,9 +86,12 @@ p {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  margin: 0 auto;
   gap: 10px;
   margin-bottom: 0 var(--size-medium);
   text-align: center;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .card {
@@ -151,11 +154,4 @@ footer {
 .fa-solid:hover,
 .fa-brands:hover {
   color: var(--link-color-demo);
-}
-
-@media only screen and (min-width: 1800px) {
-  h1,
-  .introduction {
-    margin-left: var(--size-large);
-  }
 }
